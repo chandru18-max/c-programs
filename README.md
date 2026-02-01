@@ -1,2 +1,3 @@
 # c-programs
-Basic C programs practiced during my EEE course
+This respository contains Basic C programs practiced during my EEE coursework.
+
