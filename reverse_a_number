@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int a,copy,rev=0;
+    scanf("%d",&a);
+    copy=a;
+    while(copy>0){
+        rev=rev*10;
+        rev=rev+(copy%10);
+        copy/=10;
+    }
+    printf("The reversed number %d",rev);
+}
